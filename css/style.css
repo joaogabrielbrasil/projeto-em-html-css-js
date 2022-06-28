@@ -1,0 +1,84 @@
+body {
+    background-color: white;
+}
+
+.centralizado {
+    margin: 330px;
+    margin-left: 500px;
+    margin-top: 310px;
+}
+
+.botao-ir {
+    position: absolute;
+    top: 360px;
+    width: 170px;
+    height: 170px;
+}
+
+h1 {
+    font-family: sans-serif black;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    top: 200px;
+    left: 430px;
+}
+
+span {
+    background-color: rgb(114, 114, 245);
+    border-radius: 10px;
+}
+
+p {
+    font-weight: bold;
+    font-size: 20pt;
+    position: absolute;
+    left: 430px;
+}
+
+span:hover {
+    background-color: blue;
+    transition-duration: 2s;
+}
+
+#msg1 {
+    position: absolute;
+    left: 430px;
+    top: 590px;
+    background-color: rgb(114, 114, 245);
+    border-radius: 10px;
+}
+
+#msg1:hover {
+    background-color: blue;
+    transition-duration: 2s;
+}
+
+#msg2 {
+    position: absolute;
+    left: 430px;
+    top: 640px;
+    background-color: rgb(114, 114, 245);
+    border-radius: 10px;
+}
+
+#msg3 {
+    position: absolute;
+    left: 430px;
+    top: 680px;
+    background-color: rgb(114, 114, 245);
+    border-radius: 10px;
+}
+
+#msg4 {
+    position: absolute;
+    left: 430px;
+    top: 760px;
+    background-color: rgb(114, 114, 245);
+    border-radius: 10px;
+}
+
+#msg2:hover, #msg3:hover, #msg4:hover {
+    background-color: blue;
+    transition-duration: 2s;
+}
